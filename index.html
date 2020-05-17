@@ -1,0 +1,117 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/index_style.css">
+
+
+
+
+</head>
+
+
+<body>
+
+  <nav class="navbar posFixed navbar-expand-lg navbar-light bg-light">
+    
+    <img class="egyptLogo"  src="images/egyptnews.png" alt="">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        
+        <h5 id="general" class="categorys px-2" >General</h5>
+
+        <h5 id="entertainment" class="categorys px-2" >Entertainment</h5>
+
+        <h5 id="health" class="categorys px-2" >Health</h5>
+
+        <h5 id="business" class="categorys px-2" >Business</h5>
+
+        <h5 id="sports" class="categorys px-2" >Sports</h5>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+ <H1 class="newsH1 m-auto text-center">EGYPT News</H1>
+
+  <div class="container py-3 w-100 ">
+    <div id="rowData" class="row">
+      
+
+  
+
+
+      
+    </div>
+
+
+
+
+  </div>
+
+
+
+  <form>
+   
+    <div class="container-fluid w-75">
+      <H2 class="my-4 cotact ">Contact Us..</H2>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              
+                <input onkeyup="validateName(this.value)" type="name" class="form-control"  placeholder="Enter Your Name">
+            </div>
+          
+           
+            <div class="form-group col-md-6">
+               
+                <input onkeyup="validateMail(this.value)" type="email" class="form-control"  placeholder="Enter Your Email">
+            </div>
+
+            <div class="form-group col-md-6">
+               
+                <input onkeyup="validatePhone(this.value)" type="tel" class="form-control"  placeholder="Enter Phone">
+            </div>
+
+            <div class="form-group col-md-6">
+               
+                <input onkeyup="validateAge(this.value)" type="number" class="form-control"  placeholder="Enter Age">
+            </div>
+
+            <div class="form-group col-md-6">
+               
+                <input onkeyup="validatePass(this.value)" type="password" class="form-control"  placeholder="Enter Your Password">
+            </div>
+            <div class="form-group col-md-6">
+               
+                <input onkeyup="validatePass(this.value)" type="password" class="form-control" placeholder="Enter RePassword">
+            </div>
+        </div>
+
+        <button id="btnSub" disabled type="submit" class="btn btn-danger">Submit</button>
+    </div>
+</form>
+
+
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
